@@ -14,6 +14,10 @@ import Props2 from './components/R04_Props2';
 import Props3 from './components/R05_Props3';
 import State1 from './components/R06_State1';
 import State2 from './components/R07_State2';
+import State3 from './components/R08_State3';
+import Context1 from './components/R09_Context1';
+import Context2 from './components/R10_Context2';
+import Context3 from './components/R11_Context3/Parent';
 
 function App() {
 
@@ -28,11 +32,11 @@ function App() {
       {/* ClassComponent를 현재 위치에 렌더링 */}
       {/* <ClassComponent/>  */}
       {/* <FunctionComponent/> */}
-      <Props1 num='1' name='홍길동' age='20' score='90'/>
-      <Props1 num='2' name='강찬혁' age='99' score='70'/>
+      {/* <Props1 num='1' name='홍길동' age='20' score='90'/>
+      <Props1 num='2' name='강찬혁' age='99' score='70'/> */}
 
-      <Props2 name='강감찬' age='72' gender='남자'/>
-      <Props2 name='천추태후' age='66' gender='여자'/>
+  {/*     <Props2 name='강감찬' age='72' gender='남자'/>
+      <Props2 name='천추태후' age='66' gender='여자'/> */}
 
 
       <Props3 name='고길동'/>
@@ -41,6 +45,12 @@ function App() {
       <State1/>
       <hr/>
       <State2 init="100" step="10"/>
+      <State3/>
+      <hr/>
+     {/*  <Context1/>
+      <hr/>
+      <Context2/> */}
+      <Context3/>
 
 
     </>
